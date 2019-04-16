@@ -1,6 +1,5 @@
 from data import expb
 from sklearn.cluster import KMeans
-from json import dumps
 
 model = KMeans(n_clusters=20)
 
